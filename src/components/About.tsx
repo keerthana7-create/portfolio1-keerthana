@@ -1,19 +1,19 @@
 import { Code, Database, Brain, Globe } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-import keerthanaHeadshot from '@/assets/keerthana-headshot.jpg';
+import keerthanaPhoto from '@/assets/keerthana-photo.jpg';
 
 const About = () => {
   const skills = [
     {
       icon: Code,
       title: 'Programming',
-      description: 'Python, Java, JavaScript, C++',
+      description: 'Python, Java, JavaScript',
       color: 'text-primary'
     },
     {
       icon: Globe,
       title: 'Web Development',
-      description: 'React, Node.js, HTML/CSS, Tailwind',
+      description: 'React, Node.js, HTML/CSS',
       color: 'text-accent'
     },
     {
@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-xl hover:shadow-glow transition-all duration-500 hover:scale-105">
                 <img
-                  src={keerthanaHeadshot}
+                  src={keerthanaPhoto}
                   alt="Keerthana Yadav"
                   className="w-full h-full object-cover"
                 />
@@ -67,7 +67,7 @@ const About = () => {
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   I'm Keerthana Yadav, a passionate Computer Science Engineering student 
-                  currently in my 2nd year at CMR Institute of Technology. With a strong 
+                  currently in my 2nd year at CMR Institute of Technology, Hyderabad, TS, India. With a strong 
                   foundation in programming and a keen interest in emerging technologies, 
                   I'm on a mission to create impactful software solutions.
                 </p>

@@ -11,9 +11,8 @@ const Hero = () => {
   };
 
   const handleDownloadResume = () => {
-    // Create a placeholder PDF download
     const link = document.createElement('a');
-    link.href = '#';
+    link.href = '/Keerthana_Yadav_Resume.pdf';
     link.download = 'Keerthana_Yadav_Resume.pdf';
     document.body.appendChild(link);
     link.click();

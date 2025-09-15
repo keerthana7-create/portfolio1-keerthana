@@ -8,7 +8,7 @@ const Experience = () => {
       type: 'education',
       title: 'B.Tech Computer Science Engineering',
       organization: 'CMR Institute of Technology',
-      location: 'Bangalore, India',
+      location: 'Hyderabad, TS, India',
       period: '2023 - 2027',
       description: 'Currently pursuing my Bachelor\'s degree with a focus on software engineering, data structures, and emerging technologies.',
       achievements: [
@@ -17,51 +17,6 @@ const Experience = () => {
         'Active member of coding club'
       ],
       icon: BookOpen,
-      color: 'primary'
-    },
-    {
-      type: 'experience',
-      title: 'Smart India Hackathon 2024',
-      organization: 'Government of India',
-      location: 'National Level',
-      period: 'Sep 2024',
-      description: 'Participated in the prestigious national-level hackathon, working on innovative solutions for real-world problems.',
-      achievements: [
-        'Developed AI-powered healthcare solution',
-        'Collaborated with cross-functional team',
-        'Presented to industry experts'
-      ],
-      icon: Award,
-      color: 'accent'
-    },
-    {
-      type: 'experience',
-      title: 'Model United Nations Delegate',
-      organization: 'Various MUN Conferences',
-      location: 'Bangalore & Delhi',
-      period: '2023 - Present',
-      description: 'Active participant in MUN conferences, developing diplomatic skills and global awareness.',
-      achievements: [
-        'Best Delegate Award - 2 conferences',
-        'Outstanding Delegate - 3 conferences',
-        'Research and policy drafting experience'
-      ],
-      icon: Award,
-      color: 'neon'
-    },
-    {
-      type: 'experience',
-      title: 'Tech Fest Organizer',
-      organization: 'CMRIT TechFest 2024',
-      location: 'CMRIT, Bangalore',
-      period: 'Mar 2024',
-      description: 'Organized and managed technical events, coordinating with teams and handling logistics for 500+ participants.',
-      achievements: [
-        'Managed 5 technical competitions',
-        'Coordinated with 20+ team members',
-        'Successfully executed 3-day event'
-      ],
-      icon: Award,
       color: 'primary'
     }
   ];

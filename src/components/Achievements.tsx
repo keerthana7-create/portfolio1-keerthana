@@ -10,13 +10,6 @@ const Achievements = () => {
       color: 'primary',
       items: [
         {
-          title: 'Smart India Hackathon 2024',
-          description: 'Participated in national-level hackathon, developed AI-powered healthcare solution',
-          achievement: 'National Participant',
-          date: '2024',
-          level: 'National'
-        },
-        {
           title: 'CMRIT TechFest Hackathon',
           description: 'Won first place for innovative web application addressing campus connectivity',
           achievement: '1st Place Winner',
@@ -89,24 +82,10 @@ const Achievements = () => {
       ]
     },
     {
-      category: 'Leadership & MUN',
+      category: 'Leadership',
       icon: Users,
       color: 'primary',
       items: [
-        {
-          title: 'Best Delegate - Delhi MUN',
-          description: 'Outstanding performance in United Nations Human Rights Council committee',
-          achievement: 'Best Delegate',
-          date: '2024',
-          level: 'National'
-        },
-        {
-          title: 'Outstanding Delegate Awards',
-          description: 'Received recognition at 3 different MUN conferences for exceptional diplomacy',
-          achievement: 'Outstanding Delegate x3',
-          date: '2023-2024',
-          level: 'National'
-        },
         {
           title: 'Tech Club President',
           description: 'Led college technical club with 200+ members, organized multiple events',
@@ -120,8 +99,8 @@ const Achievements = () => {
 
   const stats = [
     { number: '15+', label: 'Projects Completed', icon: Target },
-    { number: '5+', label: 'Hackathons Participated', icon: Trophy },
-    { number: '8+', label: 'Certifications Earned', icon: FileText },
+    { number: '3+', label: 'Hackathons Participated', icon: Trophy },
+    { number: '6+', label: 'Certifications Earned', icon: FileText },
     { number: '200+', label: 'Students Mentored', icon: Users }
   ];
 

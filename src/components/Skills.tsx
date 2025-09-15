@@ -21,7 +21,6 @@ const Skills = () => {
         { name: 'Python', level: 90, description: 'Data Science, Web Development, AI/ML' },
         { name: 'Java', level: 85, description: 'Object-oriented programming, DSA' },
         { name: 'JavaScript', level: 88, description: 'Frontend & Backend development' },
-        { name: 'C++', level: 75, description: 'Competitive programming, DSA' },
       ]
     },
     {
@@ -32,7 +31,6 @@ const Skills = () => {
         { name: 'React.js', level: 90, description: 'Modern frontend development' },
         { name: 'Node.js', level: 80, description: 'Backend API development' },
         { name: 'HTML/CSS', level: 95, description: 'Semantic markup, responsive design' },
-        { name: 'Tailwind CSS', level: 85, description: 'Utility-first CSS framework' },
       ]
     },
     {
@@ -41,7 +39,6 @@ const Skills = () => {
       color: 'neon',
       skills: [
         { name: 'MongoDB', level: 80, description: 'NoSQL database management' },
-        { name: 'PostgreSQL', level: 75, description: 'Relational database design' },
         { name: 'Express.js', level: 82, description: 'RESTful API development' },
         { name: 'Firebase', level: 78, description: 'Backend-as-a-Service platform' },
       ]
@@ -74,8 +71,6 @@ const Skills = () => {
       skills: [
         { name: 'Git/GitHub', level: 90, description: 'Version control systems' },
         { name: 'VS Code', level: 95, description: 'Integrated Development Environment' },
-        { name: 'Docker', level: 60, description: 'Containerization technology' },
-        { name: 'AWS', level: 55, description: 'Cloud computing platform' },
       ]
     }
   ];
@@ -146,40 +141,6 @@ const Skills = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Additional Skills */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8 text-foreground">
-            Additional Competencies
-          </h3>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: Palette, title: 'UI/UX Design', description: 'Figma, Adobe XD, Design Systems' },
-              { icon: Server, title: 'System Design', description: 'Scalable Architecture, Design Patterns' },
-              { icon: Brain, title: 'Problem Solving', description: 'Algorithmic Thinking, Optimization' },
-              { icon: GitBranch, title: 'Project Management', description: 'Agile, Scrum, Team Leadership' }
-            ].map((skill, index) => (
-              <Card
-                key={skill.title}
-                className="text-center hover-lift bg-card/30 backdrop-blur-sm border-0 shadow-md hover:shadow-lg animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CardContent className="p-6">
-                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-primary/10 text-primary mb-4">
-                    <skill.icon className="h-6 w-6" />
-                  </div>
-                  <h4 className="font-semibold text-foreground mb-2">
-                    {skill.title}
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    {skill.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </div>
     </section>
