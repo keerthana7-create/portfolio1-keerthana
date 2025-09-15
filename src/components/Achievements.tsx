@@ -10,46 +10,11 @@ const Achievements = () => {
       color: 'primary',
       items: [
         {
-          title: 'CMRIT TechFest Hackathon',
-          description: 'Won first place for innovative web application addressing campus connectivity',
-          achievement: '1st Place Winner',
-          date: '2024',
-          level: 'College'
-        },
-        {
-          title: 'Google Developer Challenge',
-          description: 'Developed mobile app solution for local business digitization',
-          achievement: 'Top 50 Finalist',
-          date: '2023',
-          level: 'Regional'
-        }
-      ]
-    },
-    {
-      category: 'Academic Excellence',
-      icon: Star,
-      color: 'accent',
-      items: [
-        {
-          title: 'Dean\'s List Recognition',
-          description: 'Achieved outstanding academic performance with CGPA of 8.5+',
-          achievement: 'Dean\'s List',
-          date: '2023-2024',
-          level: 'College'
-        },
-        {
-          title: 'Best Project Award',
-          description: 'Recognized for innovative machine learning project in Data Science course',
-          achievement: 'Best Project',
-          date: '2024',
-          level: 'Department'
-        },
-        {
-          title: 'Programming Excellence',
-          description: 'Scored 95+ in Data Structures and Algorithms course',
-          achievement: 'Academic Excellence',
-          date: '2023',
-          level: 'Course'
+          title: 'INSPIRA\'25',
+          description: 'Participated in prestigious hackathon at Indian Institute of Technology Hyderabad',
+          achievement: 'Participant',
+          date: '2025',
+          level: 'National'
         }
       ]
     },
@@ -59,25 +24,32 @@ const Achievements = () => {
       color: 'neon',
       items: [
         {
-          title: 'AWS Cloud Practitioner',
-          description: 'Certified in Amazon Web Services cloud computing fundamentals',
-          achievement: 'AWS Certified',
-          date: '2024',
-          level: 'Professional'
-        },
-        {
-          title: 'Google AI/ML Certification',
-          description: 'Completed comprehensive machine learning specialization program',
+          title: 'Google Cloud - Generative AI Studio',
+          description: 'Introduction to generative AI studio and cloud-based AI development',
           achievement: 'Google Certified',
           date: '2024',
           level: 'Professional'
         },
         {
-          title: 'Meta React Developer',
-          description: 'Advanced React.js development skills certification',
-          achievement: 'Meta Certified',
-          date: '2023',
+          title: 'AI Advanced Certificate',
+          description: 'Advanced artificial intelligence concepts and applications',
+          achievement: 'HEXART.In Certified',
+          date: '2024',
           level: 'Professional'
+        },
+        {
+          title: 'AI Foundation Certificate',
+          description: 'Foundational knowledge in artificial intelligence and machine learning',
+          achievement: 'HEXART.In Certified',
+          date: '2024',
+          level: 'Professional'
+        },
+        {
+          title: 'CMRIT MUN Participation',
+          description: 'Participated in Model United Nations conference at CMRIT',
+          achievement: 'Participant',
+          date: '2024',
+          level: 'College'
         }
       ]
     },

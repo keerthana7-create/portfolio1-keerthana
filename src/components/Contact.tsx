@@ -44,29 +44,29 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'keerthana.yadav@example.com',
-      href: 'mailto:keerthana.yadav@example.com',
+      value: 'keerthana7178@gmail.com',
+      href: 'mailto:keerthana7178@gmail.com',
       color: 'primary'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 79814 13717',
+      href: 'tel:+917981413717',
       color: 'accent'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Bangalore, India',
+      value: 'Hyderabad, India',
       href: '#',
       color: 'neon'
     },
     {
       icon: Linkedin,
       title: 'LinkedIn',
-      value: 'linkedin.com/in/keerthana-yadav',
-      href: 'https://linkedin.com/in/keerthana-yadav',
+      value: 'Connect with me',
+      href: 'https://www.linkedin.com/in/keerthana-yadav-2299ab372',
       color: 'primary'
     }
   ];
@@ -75,19 +75,19 @@ const Contact = () => {
     {
       icon: Github,
       name: 'GitHub',
-      href: 'https://github.com/keerthana',
+      href: 'https://github.com/keerthana7-create',
       color: 'text-foreground hover:text-primary'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/keerthana-yadav',
+      href: 'https://www.linkedin.com/in/keerthana-yadav-2299ab372',
       color: 'text-foreground hover:text-accent'
     },
     {
       icon: Mail,
       name: 'Email',
-      href: 'mailto:keerthana.yadav@example.com',
+      href: 'mailto:keerthana7178@gmail.com',
       color: 'text-foreground hover:text-neon'
     }
   ];
@@ -304,7 +304,7 @@ const Contact = () => {
                   asChild
                   className="bg-primary hover:bg-primary/90"
                 >
-                  <a href="mailto:keerthana.yadav@example.com">
+                  <a href="mailto:keerthana7178@gmail.com">
                     <Mail className="h-4 w-4 mr-2" />
                     Discuss Opportunities
                   </a>
@@ -314,7 +314,7 @@ const Contact = () => {
                   variant="outline"
                   className="border-primary/20 text-primary hover:bg-primary/10"
                 >
-                  <a href="https://linkedin.com/in/keerthana-yadav" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/keerthana-yadav-2299ab372" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-4 w-4 mr-2" />
                     Connect on LinkedIn
                   </a>

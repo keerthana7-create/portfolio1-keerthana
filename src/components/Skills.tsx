@@ -40,7 +40,6 @@ const Skills = () => {
       skills: [
         { name: 'MongoDB', level: 80, description: 'NoSQL database management' },
         { name: 'Express.js', level: 82, description: 'RESTful API development' },
-        { name: 'Firebase', level: 78, description: 'Backend-as-a-Service platform' },
       ]
     },
     {
@@ -48,8 +47,6 @@ const Skills = () => {
       icon: Brain,
       color: 'primary',
       skills: [
-        { name: 'TensorFlow', level: 70, description: 'Deep learning frameworks' },
-        { name: 'Scikit-learn', level: 75, description: 'Machine learning algorithms' },
         { name: 'Pandas', level: 80, description: 'Data manipulation and analysis' },
         { name: 'NumPy', level: 85, description: 'Numerical computing' },
       ]
