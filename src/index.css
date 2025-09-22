@@ -17,19 +17,19 @@
     --surface: 210 20% 98%;
     --surface-secondary: 210 15% 95%;
     
-    /* Brand Colors - Royal Blue Theme */
-    --primary: 217 91% 60%; /* Royal Blue */
+    /* Brand Colors - Sophisticated Gray-Blue */
+    --primary: 215 25% 27%; /* Sophisticated Dark Gray-Blue */
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 70%;
-    --secondary: 210 40% 96%;
+    --primary-glow: 215 30% 35%;
+    --secondary: 210 20% 95%;
     --secondary-foreground: 215 25% 15%;
     
-    /* Accent Colors - Cyber Theme */
-    --accent: 188 94% 43%; /* Cyber Blue */
+    /* Accent Colors - Elegant Teal */
+    --accent: 180 40% 50%; /* Elegant Teal */
     --accent-foreground: 0 0% 100%;
-    --accent-glow: 188 94% 53%;
-    --neon: 158 64% 52%; /* Neon Green */
-    --neon-glow: 158 64% 62%;
+    --accent-glow: 180 45% 55%;
+    --neon: 180 45% 55%; /* Refined Teal */
+    --neon-glow: 180 50% 60%;
     
     /* Neutral Colors */
     --muted: 210 15% 95%;
@@ -46,9 +46,9 @@
     --popover-foreground: 215 25% 15%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(188 94% 43%));
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(250 84% 70%) 50%, hsl(188 94% 43%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(188 94% 43%), hsl(158 64% 52%));
+    --gradient-primary: linear-gradient(135deg, hsl(215 25% 27%), hsl(180 40% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 25% 27%) 0%, hsl(215 30% 35%) 50%, hsl(180 40% 50%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(180 40% 50%), hsl(180 45% 55%));
     --gradient-surface: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 20% 98%));
     
     /* Shadows */
@@ -56,8 +56,8 @@
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1);
     --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.1);
-    --shadow-glow: 0 0 20px hsl(217 91% 60% / 0.3);
-    --shadow-accent: 0 8px 32px hsl(188 94% 43% / 0.2);
+    --shadow-glow: 0 0 20px hsl(215 25% 27% / 0.3);
+    --shadow-accent: 0 8px 32px hsl(180 40% 50% / 0.2);
     
     /* Spacing & Sizing */
     --radius: 0.75rem;
@@ -91,18 +91,18 @@
     --surface-secondary: 215 25% 15%;
     
     /* Brand Colors */
-    --primary: 217 91% 65%;
+    --primary: 215 30% 60%; /* Lighter sophisticated blue for dark mode */
     --primary-foreground: 215 28% 8%;
-    --primary-glow: 217 91% 75%;
+    --primary-glow: 215 35% 65%;
     --secondary: 215 25% 15%;
     --secondary-foreground: 210 40% 95%;
     
     /* Accent Colors */
-    --accent: 188 94% 48%;
+    --accent: 180 45% 55%; /* Brighter teal for dark mode */
     --accent-foreground: 215 28% 8%;
-    --accent-glow: 188 94% 58%;
-    --neon: 158 64% 57%;
-    --neon-glow: 158 64% 67%;
+    --accent-glow: 180 50% 60%;
+    --neon: 180 50% 60%; /* Refined Teal for dark mode */
+    --neon-glow: 180 55% 65%;
     
     /* Neutral Colors */
     --muted: 215 25% 15%;
@@ -119,9 +119,9 @@
     --popover-foreground: 210 40% 95%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 65%), hsl(188 94% 48%));
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 65%) 0%, hsl(250 84% 75%) 50%, hsl(188 94% 48%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(188 94% 48%), hsl(158 64% 57%));
+    --gradient-primary: linear-gradient(135deg, hsl(215 30% 60%), hsl(180 45% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 30% 60%) 0%, hsl(215 35% 65%) 50%, hsl(180 45% 55%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(180 45% 55%), hsl(180 50% 60%));
     --gradient-surface: linear-gradient(180deg, hsl(215 28% 8%), hsl(215 25% 12%));
     
     /* Shadows */
@@ -129,8 +129,8 @@
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.4);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.5);
     --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.6);
-    --shadow-glow: 0 0 20px hsl(217 91% 65% / 0.4);
-    --shadow-accent: 0 8px 32px hsl(188 94% 48% / 0.3);
+    --shadow-glow: 0 0 20px hsl(215 30% 60% / 0.4);
+    --shadow-accent: 0 8px 32px hsl(180 45% 55% / 0.3);
     
     /* Sidebar */
     --sidebar-background: 240 5.9% 10%;

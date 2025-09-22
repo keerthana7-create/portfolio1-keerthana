@@ -13,11 +13,24 @@ const Experience = () => {
       description: 'Currently pursuing my Bachelor\'s degree with a focus on software engineering, data structures, and emerging technologies.',
       achievements: [
         'Current CGPA: 8.5/10',
-        'Dean\'s List for Academic Excellence',
         'Active member of coding club'
       ],
       icon: BookOpen,
       color: 'primary'
+    },
+    {
+      type: 'education',
+      title: 'Intermediate (12th Grade)',
+      organization: 'Sri Chaitanya Junior College',
+      location: 'Hyderabad, TS, India',
+      period: '2021 - 2023',
+      description: 'Completed intermediate education with focus on Mathematics, Physics, and Chemistry.',
+      achievements: [
+        'Aggregate: 9.59/10',
+        'Strong foundation in analytical thinking'
+      ],
+      icon: BookOpen,
+      color: 'accent'
     }
   ];
 

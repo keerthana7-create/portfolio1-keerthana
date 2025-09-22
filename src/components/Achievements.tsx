@@ -52,28 +52,13 @@ const Achievements = () => {
           level: 'College'
         }
       ]
-    },
-    {
-      category: 'Leadership',
-      icon: Users,
-      color: 'primary',
-      items: [
-        {
-          title: 'Tech Club President',
-          description: 'Led college technical club with 200+ members, organized multiple events',
-          achievement: 'Leadership Role',
-          date: '2024',
-          level: 'College'
-        }
-      ]
     }
   ];
 
   const stats = [
     { number: '15+', label: 'Projects Completed', icon: Target },
     { number: '3+', label: 'Hackathons Participated', icon: Trophy },
-    { number: '6+', label: 'Certifications Earned', icon: FileText },
-    { number: '200+', label: 'Students Mentored', icon: Users }
+    { number: '6+', label: 'Certifications Earned', icon: FileText }
   ];
 
   const getColorClasses = (color: string) => {

@@ -12,7 +12,7 @@ const Projects = () => {
       description: 'Medico is a web-based medical assistant that empowers users to get personalized AI-driven medical advice and tablet information using Optical Character Recognition (OCR). It\'s designed with accessibility in mind — including multi-language voice output — to help even illiterate users understand medicine details clearly.',
       image: medicoApp,
       technologies: ['HTML', 'CSS', 'JavaScript', 'Google Gemini API', 'Tesseract.js'],
-      githubUrl: 'https://github.com/keerthana/medico-app',
+      githubUrl: 'https://github.com/keerthana7-create/Medico',
       liveUrl: 'https://keerthana7-create.github.io/Medico/',
       category: 'Healthcare AI',
       highlights: [
