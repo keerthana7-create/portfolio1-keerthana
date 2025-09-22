@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-start justify-center overflow-hidden pt-32">
       {/* Background with Gradient Overlay */}
       <div className="absolute inset-0">
         <div 
